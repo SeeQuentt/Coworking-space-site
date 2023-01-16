@@ -1,0 +1,51 @@
+/* HEADER */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #282828;
+    color: whitesmoke;
+    padding: 30px;
+}
+
+ul {
+    font-weight: 900;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: solid red 2px; */
+}
+
+li {
+    margin-right: 10px;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+.pin-img {
+    width: 25px;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.burger-img {
+    width: 25px;
+}
+
+/* MAIN */
+
+h1 {
+    margin: 30px 25px;
+    font-size: 40px;
+    font-weight: 400;
+}
