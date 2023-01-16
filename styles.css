@@ -49,3 +49,63 @@ h1 {
     font-size: 40px;
     font-weight: 400;
 }
+
+.item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.spaces-pictures {
+    width: 100%;
+    display: block;
+}
+
+.img-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: whitesmoke;
+    background-color: #cd6858;
+    padding: 10px 15px;
+    font-weight: 900;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+button {
+    color: whitesmoke;
+    align-self: center;
+    background-color: #727272;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+button:hover{
+    background-color: #cd6858;
+}
+
+.chatbox-container {
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.chatbox-img {
+    width: 50%;
+    margin: auto;
+}
+
